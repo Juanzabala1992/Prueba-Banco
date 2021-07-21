@@ -1,0 +1,206 @@
+.container-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 200px;
+ 
+}
+.icon-flecha{
+    width: 100%;
+    color:rgb(0, 132, 255);
+    font-size: 25px;
+    
+}
+.client-information{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.enterprice-name{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 10px;
+    min-width: 200px;
+    width: 100%;
+}
+.enterprice-nit{
+    font-size: 15px;
+    color: gray;
+    margin: 10px 10px;
+    width: 100%;
+}
+.critical-information{
+    margin:10px;
+    width: 30%;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.image-cont{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.slide{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    transition: 2s;
+}
+.slides{
+    width: 100%;
+    
+}
+
+.botones{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.boton{
+    width: 33%;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    border-bottom: 2px solid blue;
+}
+
+.card-title{
+    font-size: 20px;
+}
+
+
+
+.title1{
+    font-size: 14px;
+    color: rgb(5, 60, 161);
+    font-weight: bold;
+}
+.slide-first{
+    width: 100%;
+    margin-top: 20px;
+    height: 40px;
+}
+.slide-first p{
+    width: 100%;
+}
+.slider{
+    width: 80%;
+}
+.optioncard{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+
+}
+.optioncard .card i{
+    color: rgb(0, 76, 139);
+    font-size: 40px;
+}
+
+.optioncard .card .fas{
+    margin: 15px 10px;
+    text-align: center;
+}
+.optioncard .card {
+    text-align: center;
+    
+}
+.card-body .btn{
+    background-color: rgb(173, 173, 173);
+    width: 100%;
+    border: none;
+    color: rgb(0, 4, 255);
+    margin-top: 10px;
+
+}
+.card-body{
+    margin: 0px;
+    padding: 0px;
+}
+.card{
+    margin: 10px 10px;
+}
+.alert{
+    width: 100%;
+    height: 50px;
+    margin: 5px;
+    background-color: #ffdb9b;
+    display: flex;
+    line-height: center;
+}
+.alert .icon i{
+    color: #ffa502;
+    font-size: 20px;
+}
+.alert .icon{
+    width: 25px;
+    border-right: 1px solid #ffa502;
+    display: flex;
+    justify-content: center;
+}
+.alert span{
+    color: #ffa502;
+    font-size: 12px;
+}
+.alert .msg{
+    margin-left: 10px;
+}
+
+@media screen and (max-width:840px){
+    .card-title{
+        font-size: 14px;
+        font-weight: bold;       
+   }
+   .container-body{
+        margin: 100px;
+    }
+}
+@media screen and (max-width:768px){
+    .card-title{
+        font-size: 14px;
+        font-weight: bold;       
+   }
+   .container-body{
+        margin: 20px;
+    }
+    .boton{
+        font-size: 12px;
+        max-width: 430px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:470px){
+    
+    .critical-information{
+        width: 50%;
+    }
+
+}
+@media screen and (max-width:380px){
+    
+    .card-title{
+        font-size: 10px;
+        font-weight: bold;       
+    }
+    .btn{
+        font-size: 10px;
+    }
+
+}
+
+
+

@@ -1,0 +1,75 @@
+<div class="container-body">
+    <div class="icon-flecha">
+        <i class="fas fa-arrow-left"></i>
+    </div>
+    <div class="client-information">
+        <div class="enterprice-name">
+            <span>
+                Flotas La Macarena
+            </span>
+        </div>
+        <div class="enterprice-nit">
+            <span>
+                NIT: 800 220 154
+            </span>
+        </div>
+        <div class="critical-information">
+            <div class="enterprice-layer">
+                <span>
+                    Capa: oro  
+                </span>
+            </div>
+            <div class="enterprice-Segment">
+                <span>
+                    Segmento: A
+                </span>
+            </div>
+        </div>
+
+    
+        </div>
+
+       <div class="slider">
+
+            <div class="slides">
+                <div class="botones">
+                <button (click)="clickOnesa()" [style.border-bottom]="newcolor" name="radio-btn" value="Operación" id="radio1" class="boton" >Operación</button>
+                <button (click)="clickOnesb()" [style.border-bottom]="newcolorb" name="radio-btn" value="Indicadores" id="radio2" class="boton">Indicadores</button>
+                <button (click)="clickOnesc()" [style.border-bottom]="newcolorc" name="radio-btn" value="Información Cliente" id="radio3" class="boton" >Información Cliente</button>
+                </div>
+                <div class="image-cont">
+                    <div class="slide-first">
+                       <p class="title1">Indique la linea de crédito que quiere reconsiderar</p>
+                    </div>
+
+                    <div class="optioncard">
+                        <div class="card" style="width: 12rem;" (click)="clickOn()">
+                            <i  [style.color]="hasError" class="fas fa-hand-holding-usd" ></i>
+                            <div class="card-body">
+                              <h5 class="card-title" [style.color]="hasError" >Cartera ordinaria</h5>
+                              <a href="#" class="btn btn-primary" [style.color]="hasError">Continuar</a>
+                            </div>
+                          </div>
+
+
+                          <div class="card" style="width: 12rem;" (click)="clickOnb()">
+                            <i class="fas fa-store" [style.color]="hasErrors"></i>
+                            <div class="card-body">
+                              <h5 class="card-title"[style.color]="hasErrors">Leasing</h5>
+                              <a href="#" class="btn btn-primary" [style.color]="hasErrors">Continuar</a>
+                            </div>
+                          </div>
+
+                    </div>
+
+
+                   </div>
+            </div>
+            
+            <div class="alert">
+                <div class="icon"><i class="fas fa-exclamation-circle"></i></div> 
+                    <span class="msg">Las demas lineas de credito no estaran disponibles por el momento</span>
+            </div>
+        </div> 
+</div>
+
